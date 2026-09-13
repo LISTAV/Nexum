@@ -4,13 +4,14 @@
 • <b>SMS Forwarding:</b> Automatically syncs incoming and outgoing SMS messages to your configured Telegram bot/chat in real time.
 • <b>Call Notifications:</b> Forwards missed, incoming, and outgoing call notifications with contact information.
 • <b>Customizable Format:</b> Tailor the message format styles sent to Telegram.
-• <b>Direct SMS Composition:</b> Compose and send SMS directly from the app.
+• <b>Direct SMS Composition & Scheduling:</b> Compose and send SMS immediately or schedule automated delivery with exact alarms and reboot persistence.
 • <b>Offline Queue & Sync:</b> Queues events when offline and syncs them automatically when internet connectivity is restored using WorkManager.
 • <b>Open Source & Privacy First:</b> 100% Free and Open Source Software (FOSS) with no telemetry, third-party analytics, or tracking.
 
 <h3>Permissions Explanation</h3>
-• <b>SMS (READ_SMS, RECEIVE_SMS, SEND_SMS, RECEIVE_MMS, RECEIVE_WAP_PUSH):</b> Required to read, receive, and forward text messages.
+• <b>SMS (READ_SMS, RECEIVE_SMS, SEND_SMS, RECEIVE_MMS, RECEIVE_WAP_PUSH):</b> Required to read, receive, compose, schedule, and forward text messages.
 • <b>Call Logs & Phone State (READ_CALL_LOG, READ_PHONE_STATE):</b> Required to detect call states and log call events.
 • <b>Contacts (READ_CONTACTS):</b> Used to resolve phone numbers to contact names for clearer Telegram messages.
+• <b>Exact Alarm & Boot (SCHEDULE_EXACT_ALARM, USE_EXACT_ALARM, RECEIVE_BOOT_COMPLETED):</b> Required for precise scheduled SMS dispatch and restoring alarms after device restart.
 • <b>Internet (INTERNET):</b> Required to communicate with the official Telegram Bot API via encrypted HTTPS.
 • <b>Notifications (POST_NOTIFICATIONS):</b> Used to notify the user of sync status and background service health.
