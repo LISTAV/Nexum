@@ -53,7 +53,7 @@ cd nexum
 
 ## 📦 Download & Installation
 
-- **GitHub Releases:** Download the latest signed APK from [Releases](https://github.com/Hd6567/SMSLOG/releases)
+- **GitHub Releases:** Download the latest signed APK from [Releases](https://github.com/LISTAV/Nexum/releases)
 - **F-Droid & IzzyOnDroid:** Metadata recipes and Fastlane specifications are included in [`docs/FDROID_SUBMISSION_GUIDE.md`](docs/FDROID_SUBMISSION_GUIDE.md).
 
 ---

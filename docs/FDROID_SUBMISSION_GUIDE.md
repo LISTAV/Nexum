@@ -31,7 +31,7 @@ This guide details the complete process to publish **Nexum** (`com.kairav.nexum`
 
 2. Link your remote repository and push to GitHub:
    ```bash
-   git remote add origin https://github.com/<your-username>/SMSLOG.git
+   git remote add origin https://github.com/LISTAV/Nexum.git
    git branch -M main
    git push -u origin main
    ```
@@ -87,7 +87,7 @@ IzzyOnDroid is the most popular community repository for F-Droid, indexing thous
 2. Select the template **`App Inclusion Request`** (or fill in the details):
    - **Application Name:** Nexum
    - **Package ID:** `com.kairav.nexum`
-   - **Repository URL:** `https://github.com/<your-username>/SMSLOG`
+   - **Repository URL:** `https://github.com/LISTAV/Nexum`
    - **License:** GNU General Public License v3.0 (`GPL-3.0-or-later`)
    - **Release Tag Pattern:** `v*` (e.g. `v1.0`)
    - **Description:** Real-time SMS and call log synchronization to Telegram.

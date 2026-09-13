@@ -4,9 +4,9 @@ Categories:
   - Security
 License: GPL-3.0-or-later
 AuthorName: Himangshu
-SourceCode: https://github.com/Hd6567/SMSLOG
-IssueTracker: https://github.com/Hd6567/SMSLOG/issues
-Changelog: https://github.com/Hd6567/SMSLOG/releases
+SourceCode: https://github.com/LISTAV/Nexum
+IssueTracker: https://github.com/LISTAV/Nexum/issues
+Changelog: https://github.com/LISTAV/Nexum/releases
 
 AutoName: Nexum
 Summary: Sync and forward SMS messages and call logs to Telegram
@@ -23,7 +23,7 @@ Description: |-
   * FOSS & Privacy: 100% Free and Open Source Software (GPL v3.0) with zero telemetry and no third-party trackers.
 
 RepoType: git
-Repo: https://github.com/Hd6567/SMSLOG.git
+Repo: https://github.com/LISTAV/Nexum.git
 
 Builds:
   - versionName: '1.0'
