@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.Nexum" parent="Theme.MaterialComponents.Light" />
+</resources>

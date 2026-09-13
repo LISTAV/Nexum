@@ -1,0 +1,16 @@
+<b>Nexum</b> is a modern, privacy-focused open-source Android application designed to forward and synchronize your incoming/outgoing SMS messages and call notifications to your Telegram bots or channels.
+
+<h3>Features</h3>
+• <b>SMS Forwarding:</b> Automatically syncs incoming and outgoing SMS messages to your configured Telegram bot/chat in real time.
+• <b>Call Notifications:</b> Forwards missed, incoming, and outgoing call notifications with contact information.
+• <b>Customizable Format:</b> Tailor the message format styles sent to Telegram.
+• <b>Direct SMS Composition:</b> Compose and send SMS directly from the app.
+• <b>Offline Queue & Sync:</b> Queues events when offline and syncs them automatically when internet connectivity is restored using WorkManager.
+• <b>Open Source & Privacy First:</b> 100% Free and Open Source Software (FOSS) with no telemetry, third-party analytics, or tracking.
+
+<h3>Permissions Explanation</h3>
+• <b>SMS (READ_SMS, RECEIVE_SMS, SEND_SMS, RECEIVE_MMS, RECEIVE_WAP_PUSH):</b> Required to read, receive, and forward text messages.
+• <b>Call Logs & Phone State (READ_CALL_LOG, READ_PHONE_STATE):</b> Required to detect call states and log call events.
+• <b>Contacts (READ_CONTACTS):</b> Used to resolve phone numbers to contact names for clearer Telegram messages.
+• <b>Internet (INTERNET):</b> Required to communicate with the official Telegram Bot API via encrypted HTTPS.
+• <b>Notifications (POST_NOTIFICATIONS):</b> Used to notify the user of sync status and background service health.

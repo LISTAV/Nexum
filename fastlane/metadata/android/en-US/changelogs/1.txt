@@ -1,0 +1,6 @@
+• Initial release of Nexum (v1.0).
+• Real-time SMS forwarding to Telegram bot or chat.
+• Call log synchronization with contact resolution.
+• In-app SMS composer with search and direct send.
+• Offline queueing with Room database and WorkManager.
+• 100% Free and Open Source (GPL v3.0), zero telemetry.

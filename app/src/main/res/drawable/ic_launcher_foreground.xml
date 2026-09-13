@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:scaleX="0.23"
+        android:scaleY="0.23"
+        android:translateX="-6.8"
+        android:translateY="-6.4">
+
+        <!-- Decorative ambient dots -->
+        <path
+            android:fillColor="#40FFFFFF"
+            android:pathData="M95,96 a4,4 0 1,0 0.001,0 Z" />
+
+        <path
+            android:fillColor="#33FFFFFF"
+            android:pathData="M425,90 a5,5 0 1,0 0.001,0 Z" />
+
+        <path
+            android:fillColor="#4DFFFFFF"
+            android:pathData="M80,397 a3,3 0 1,0 0.001,0 Z" />
+
+        <path
+            android:fillColor="#40FFFFFF"
+            android:pathData="M440,228 a2,2 0 1,0 0.001,0 Z" />
+
+        <!-- Chat bubble -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M135,125 L375,125 A30,30 0 0,1 405,155 L405,330 A30,30 0 0,1 375,360 L215,360 L155,400 L175,345 L175,360 L135,360 A30,30 0 0,1 105,330 L105,155 A30,30 0 0,1 135,125 Z" />
+
+        <!-- Message dots -->
+        <path
+            android:fillColor="#FF1E88E5"
+            android:pathData="M215,261 a14,14 0 1,0 0.001,0 Z" />
+
+        <path
+            android:fillColor="#FF1E88E5"
+            android:pathData="M256,261 a14,14 0 1,0 0.001,0 Z" />
+
+        <path
+            android:fillColor="#FF1E88E5"
+            android:pathData="M297,261 a14,14 0 1,0 0.001,0 Z" />
+
+        <!-- Forward badge -->
+        <path
+            android:pathData="M372,290 a52,52 0 1,0 0.001,0 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="320"
+                    android:startY="290"
+                    android:endX="424"
+                    android:endY="394"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#FFFF9800" />
+                    <item android:offset="1.0" android:color="#FFF57C00" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <path
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="4"
+            android:pathData="M372,290 a52,52 0 1,0 0.001,0 Z" />
+
+        <!-- Forward arrow -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M345,334 L361,334 A3,3 0 0,1 364,337 L364,347 A3,3 0 0,1 361,350 L345,350 A3,3 0 0,1 342,347 L342,337 A3,3 0 0,1 345,334 Z" />
+
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M364,328 L388,342 L364,356 Z" />
+    </group>
+</vector>

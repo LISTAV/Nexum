@@ -1,0 +1,1 @@
+Sync and forward your SMS messages and call logs to Telegram in real time.
