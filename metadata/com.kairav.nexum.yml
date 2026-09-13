@@ -1,6 +1,6 @@
 Categories:
   - Connectivity
-  - SMS
+  - Phone & SMS
   - Security
 License: GPL-3.0-or-later
 AuthorName: Himangshu
@@ -19,6 +19,7 @@ Description: |-
   * Real-time SMS Forwarding: Intercepts SMS and forwards them instantly to Telegram.
   * Call Log Synchronization: Detects incoming, outgoing, and missed calls with contact resolution.
   * In-App SMS Composer: Compose and send messages directly from the app.
+  * SMS Scheduling: Punctual delivery with exact alarms and reboot persistence.
   * Offline Resiliency: Persistent Room database queue with WorkManager sync when connectivity returns.
   * FOSS & Privacy: 100% Free and Open Source Software (GPL v3.0) with zero telemetry and no third-party trackers.
 
@@ -29,7 +30,6 @@ Builds:
   - versionName: '1.0'
     versionCode: 1
     commit: v1.0
-    subdir: app
     gradle:
       - yes
 
