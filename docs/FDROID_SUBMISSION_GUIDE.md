@@ -81,8 +81,9 @@ F-Droid builds all apps from source on their GitLab infrastructure (`fdroiddata`
 
 IzzyOnDroid is the most popular community repository for F-Droid, indexing thousands of FOSS Android apps directly from GitHub Releases. It usually indexes apps within **24–48 hours**.
 
-1. Go to the IzzyOnDroid Repository issue tracker:
-   👉 **[https://gitlab.com/IzzyOnDroid/repo/-/issues/new](https://gitlab.com/IzzyOnDroid/repo/-/issues/new)**
+1. Go to the IzzyOnDroid Repository issue tracker at Codeberg:
+   👉 **[https://codeberg.org/IzzyOnDroid/repodata/issues](https://codeberg.org/IzzyOnDroid/repodata/issues)**
+   *(Click **New Issue** -> select **App Inclusion Request**)*.
 
 2. Select the template **`App Inclusion Request`** (or fill in the details):
    - **Application Name:** Nexum
