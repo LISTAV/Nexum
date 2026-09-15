@@ -8,14 +8,12 @@ plugins {
 
 android {
     namespace = "com.kairav.nexum"
-    compileSdk {
-        version = release(37)
-    }
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.kairav.nexum"
         minSdk = 30
-        targetSdk = 37
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -24,10 +22,11 @@ android {
 
     buildTypes {
         release {
-            optimization {
-                enable = false
-            }
-            signingConfig = signingConfigs.getByName("debug")
+            isMinifyEnabled = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
     compileOptions {
