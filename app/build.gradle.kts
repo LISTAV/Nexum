@@ -8,7 +8,9 @@ plugins {
 
 android {
     namespace = "com.kairav.nexum"
-    compileSdk = 35
+    compileSdk {
+        version = release(37)
+    }
 
     defaultConfig {
         applicationId = "com.kairav.nexum"
