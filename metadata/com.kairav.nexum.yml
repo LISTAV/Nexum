@@ -9,19 +9,6 @@ IssueTracker: https://github.com/LISTAV/Nexum/issues
 Changelog: https://github.com/LISTAV/Nexum/releases
 
 AutoName: Nexum
-Summary: Sync and forward SMS messages and call logs to Telegram
-Description: |-
-  Nexum is a modern, privacy-focused open-source Android application designed
-  to forward and synchronize your incoming/outgoing SMS messages and call
-  notifications to your Telegram bot or chat in real-time.
-
-  Key Features:
-  * Real-time SMS Forwarding: Intercepts SMS and forwards them instantly to Telegram.
-  * Call Log Synchronization: Detects incoming, outgoing, and missed calls with contact resolution.
-  * In-App SMS Composer: Compose and send messages directly from the app.
-  * SMS Scheduling: Punctual delivery with exact alarms and reboot persistence.
-  * Offline Resiliency: Persistent Room database queue with WorkManager sync when connectivity returns.
-  * FOSS & Privacy: 100% Free and Open Source Software (GPL v3.0) with zero telemetry and no third-party trackers.
 
 RepoType: git
 Repo: https://github.com/LISTAV/Nexum.git
@@ -29,7 +16,7 @@ Repo: https://github.com/LISTAV/Nexum.git
 Builds:
   - versionName: '1.0'
     versionCode: 1
-    commit: v1.0
+    commit: 81c56b8a4c44248973453a4696208020bdad7985
     gradle:
       - yes
 
