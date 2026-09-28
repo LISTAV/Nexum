@@ -27,3 +27,4 @@ google-services.json
 scratch/
 .artifacts/
 .kotlin/
+release_assets/
