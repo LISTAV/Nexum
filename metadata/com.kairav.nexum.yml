@@ -17,12 +17,12 @@ Binaries: https://github.com/LISTAV/Nexum/releases/download/v%v/nexum-v%v.apk
 Builds:
   - versionName: '1.0'
     versionCode: 1
-    commit: b751a318dcf128e83f2ebd7dba524c5c0b53eaf8
+    commit: 4afd69b77dae4ee06993595a5ce90f15b70f566d
     subdir: app
     gradle:
       - yes
 
-AllowedAPKSigningKeys: 1aeabad2e6e61c4e3510559d94d445e71abfa50ef7f6f5b6f6c29ca0eea406eb
+AllowedAPKSigningKeys: 06be24a157849f871074cc2f386b33367cc6bff71e1cdfc1183e9f5841291fbb
 
 AutoUpdateMode: Version
 UpdateCheckMode: Tags

@@ -28,3 +28,10 @@ scratch/
 .artifacts/
 .kotlin/
 release_assets/
+
+# Build artifacts
+*.apk
+*.idsig
+tmp/
+META-INF/
+SHA256SUMS.txt
