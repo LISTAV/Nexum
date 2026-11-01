@@ -3,7 +3,7 @@
 > **Project:** Nexum (`com.kairav.nexum`)  
 > **Repository:** [LISTAV/Nexum](https://github.com/LISTAV/Nexum)  
 > **F-Droid MR:** [!48799 in fdroid/fdroiddata](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/48799)  
-> **Last Verified Passing Pipeline:** [#2898175920](https://gitlab.com/listav3/fdroid-data/-/pipelines/2898175920)
+> **Last Verified Passing Pipeline:** [#3015043023](https://gitlab.com/listav3/fdroid-data/-/pipelines/3015043023) (v1.1)
 
 ---
 
