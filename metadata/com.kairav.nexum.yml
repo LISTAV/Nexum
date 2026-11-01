@@ -10,14 +10,17 @@ Changelog: https://github.com/LISTAV/Nexum/releases
 
 AutoName: Nexum
 
+AntiFeatures:
+  - NonFreeNet
+
 RepoType: git
 Repo: https://github.com/LISTAV/Nexum.git
 Binaries: https://github.com/LISTAV/Nexum/releases/download/v%v/nexum-v%v.apk
 
 Builds:
-  - versionName: '1.0'
-    versionCode: 1
-    commit: 4afd69b77dae4ee06993595a5ce90f15b70f566d
+  - versionName: '1.1'
+    versionCode: 2
+    commit: 6774635cc022e27184cb880b3f8793e68ba8b40e
     subdir: app
     gradle:
       - yes
@@ -26,5 +29,5 @@ AllowedAPKSigningKeys: 06be24a157849f871074cc2f386b33367cc6bff71e1cdfc1183e9f584
 
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
-CurrentVersion: '1.0'
-CurrentVersionCode: 1
+CurrentVersion: '1.1'
+CurrentVersionCode: 2
