@@ -1,3 +1,5 @@
+AntiFeatures:
+  - NonFreeNet
 Categories:
   - Connectivity
   - Phone & SMS
@@ -9,9 +11,6 @@ IssueTracker: https://github.com/LISTAV/Nexum/issues
 Changelog: https://github.com/LISTAV/Nexum/releases
 
 AutoName: Nexum
-
-AntiFeatures:
-  - NonFreeNet
 
 RepoType: git
 Repo: https://github.com/LISTAV/Nexum.git
